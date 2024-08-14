@@ -22,7 +22,7 @@ signed main() {
     cin >> test;
     while (test--) {
         cin >> n;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n + 1; i++) {
             check[i] = 0;
         }
         bool ok = true;
